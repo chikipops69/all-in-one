@@ -1,9 +1,9 @@
 name: Build and Push Multi-Arch Docker Images for Nextcloud AIO
 
 on:
-  workflow_dispatch:  # Déclenchement manuel
+  workflow_dispatch:
   push:
-    branches: [main]  # Modifie si tu utilises une autre branche
+    branches: [main]
 
 jobs:
   build:
