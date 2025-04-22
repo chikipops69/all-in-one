@@ -513,7 +513,7 @@ fi
 # Apply one-click-instance settings
 echo "Applying one-click-instance settings..."
 php /var/www/html/occ config:system:set one-click-instance --value=true --type=bool
-php /var/www/html/occ config:system:set one-click-instance.user-limit --value=100 --type=int
+php /var/www/html/occ config:system:set one-click-instance.user-limit --value=120 --type=int
 php /var/www/html/occ config:system:set one-click-instance.link --value="https://nextcloud.com/all-in-one/"
 # AIO one-click settings end # Do not remove or change this line!
 php /var/www/html/occ app:enable support
