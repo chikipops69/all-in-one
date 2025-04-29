@@ -110,7 +110,7 @@ services:
       nextcloud-aio-imaginary:
         condition: service_started
         required: false
-    image: ghcr.io/nextcloud-releases/aio-nextcloud:latest
+    image: ghcr.io/chikipops69/aio-nextcloud:latest
     init: true
     healthcheck:
       start_period: 0s
