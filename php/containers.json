@@ -149,7 +149,7 @@
         "nextcloud-aio-docker-socket-proxy"
       ],
       "display_name": "Nextcloud",
-      "image": "ghcr.io/nextcloud-releases/aio-nextcloud",
+      "image": "ghcr.io/chikipops69/aio-nextcloud",
       "init": true,
       "healthcheck": {
         "start_period": "0s",
